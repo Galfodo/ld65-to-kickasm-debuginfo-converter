@@ -6,6 +6,7 @@ This allows you to do source-level debugging in the RetroDebugger. I developed t
 
 # Usage
 
+It can be used with C and/or pure assembly language projects.
 
 ```
 
