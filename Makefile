@@ -10,6 +10,7 @@ hello.prg: hello.c text.s
 	$(CA65) -g -t c64 text.s
 	$(LD65) -o $@ --dbgfile $(basename $@).ld65.dbg -t c64 $(basename $<).o text.o c64.lib
 	$(PYTHON) python convert_ld65_to_kickasm_dbg_format.py $(basename $@).ld65.dbg -o $(basename $@).dbg
+	$(RM) $(basename $@).ld65.dbg 
 
 .PHONY: clean
 clean:

@@ -26,7 +26,7 @@ optional arguments:
 
 ```
 
-Building and converting should be pretty clear from the sample `Makefile`. When used in the debugger, it will look something like this:
+Building and converting should be pretty clear from the sample `Makefile`. The script takes a debuginfo file from `ld65` and outputs a RetroDebugger compatible one (in the example case: `hello.dbg`). The output format is the same as with [Kick Assembler](https://theweb.dk/KickAssembler/Main.html#frontpage) by Mads Nielsen. When used in the debugger, it will look something like this:
 
 ![debugger_screenshot](debugger_screenshot.png)
 
