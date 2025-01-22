@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 # WIP ld65 debuginfo converter. 
 # stein.pedersen@gmail.com - 4-sep-2024
 

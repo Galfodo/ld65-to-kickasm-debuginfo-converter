@@ -2,3 +2,4 @@ hello.s
 *.o
 *.dbg
 *.prg
+.vscode/
